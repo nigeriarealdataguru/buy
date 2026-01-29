@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Buy Reliable Nigerian Data</title>
+  <meta name="description" content="Buy reliable Nigerian data. Choose your state, quantity, and email your order instantly." />
+  <style>
+    :root{
+      --bg:#0b1320;
+      --card:#121c2d;
+      --muted:#8fa3c0;
+      --text:#eaf0ff;
+      --accent:#22c55e;
+      --danger:#ef4444;
+      --ring: rgba(34,197,94,.35);
+      --shadow: 0 18px 45px rgba(0,0,0,.45);
+      --radius: 18px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      background:
+        radial-gradient(900px 500px at 10% 10%, rgba(34,197,94,.18), transparent 60%),
+        radial-gradient(900px 500px at 90% 20%, rgba(59,130,246,.18), transparent 60%),
+        radial-gradient(900px 500px at 50% 90%, rgba(168,85,247,.16), transparent 60%),
+        var(--bg);
+      color:var(--text);
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:24px;
+    }
+    .wrap{width:min(980px, 100%)}
+    .top{
+      display:flex; gap:18px; align-items:center; justify-content:space-between;
+      margin-bottom:18px;
+    }
+    .brand{
+      display:flex; flex-direction:column; gap:6px;
+    }
+    .badge{
+      display:inline-flex; align-items:center; gap:8px;
+      padding:8px 12px;
+      border-radius:999px;
+      background: rgba(34,197,94,.12);
+      border:1px solid rgba(34,197,94,.25);
+      width: fit-content;
+      color: #c9ffe0;
+      font-size: 13px;
+    }
+    .badge span.dot{
+      width:8px; height:8px; border-radius:99px;
+      background: var(--accent);
+      box-shadow: 0 0 0 6px rgba(34,197,94,.18);
+    }
+    h1{
+      margin:0;
+      font-size: clamp(26px, 3.4vw, 44px);
+      letter-spacing:-0.02em;
+      line-height:1.12;
+    }
+    .sub{
+      margin:0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height:1.5;
+      max-width: 62ch;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap:16px;
+    }
+    @media (max-width: 900px){
+      .grid{grid-template-columns:1fr}
+      .top{flex-direction:column; align-items:flex-start}
+    }
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border:1px solid rgba(255,255,255,.08);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .card-inner{padding:18px}
+    .card h2{
+      margin:0 0 8px 0;
+      font-size: 18px;
+      letter-spacing:-0.01em;
+    }
+    .row{display:grid; gap:12px; margin-top:12px}
+    label{
+      font-size: 13px;
+      color: var(--muted);
+      display:block;
+      margin-bottom:8px;
+    }
+    select, input{
+      width:100%;
+      padding: 13px 14px;
+      border-radius: 14px;
+      border:1px solid rgba(255,255,255,.10);
+      background: rgba(12,18,32,.65);
+      color: var(--text);
+      outline:none;
+      transition:.15s;
+    }
+    select:focus, input:focus{
+      border-color: rgba(34,197,94,.55);
+      box-shadow: 0 0 0 4px var(--ring);
+    }
+    .split{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:12px;
+    }
+    @media (max-width: 520px){
+      .split{grid-template-columns:1fr}
+    }
+
+    .summary{
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+    }
+    .price-box{
+      padding:16px;
+      border-radius: var(--radius);
+      background: rgba(34,197,94,.10);
+      border: 1px solid rgba(34,197,94,.22);
+    }
+    .price-line{
+      display:flex;
+      align-items:flex-end;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+    .price{
+      font-size: 34px;
+      letter-spacing:-0.02em;
+      margin:0;
+    }
+    .muted{color:var(--muted); font-size:13px}
+    .hint{
+      margin:0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height:1.5;
+    }
+    .btn{
+      cursor:pointer;
+      width:100%;
+      padding: 14px 16px;
+      border-radius: 16px;
+      border: 1px solid rgba(34,197,94,.38);
+      background: linear-gradient(180deg, rgba(34,197,94,.95), rgba(34,197,94,.75));
+      color:#06210f;
+      font-weight: 800;
+      letter-spacing: .01em;
+      box-shadow: 0 16px 35px rgba(34,197,94,.25);
+      transition: transform .08s ease, filter .12s ease;
+    }
+    .btn:hover{filter: brightness(1.03)}
+    .btn:active{transform: translateY(1px)}
+    .btn[disabled]{
+      cursor:not-allowed;
+      opacity:.55;
+      filter: grayscale(.2);
+    }
+    .mini{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:10px;
+    }
+    .pill{
+      font-size: 12px;
+      color: #dbe7ff;
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(255,255,255,.03);
+      padding: 8px 10px;
+      border-radius: 999px;
+    }
+    .warn{color: #ffd1d1}
+    footer{
+      margin-top:14px;
+      color: rgba(235,242,255,.65);
+      font-size: 12px;
+      text-align:center;
+    }
+    .note{
+      padding:14px 16px;
+      border-top: 1px solid rgba(255,255,255,.07);
+      background: rgba(0,0,0,.15);
+      color: rgba(235,242,255,.72);
+      font-size: 12px;
+      line-height:1.5;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="top">
+      <div class="brand">
+        <div class="badge"><span class="dot"></span> Fast • Simple • Email Order</div>
+        <h1>Buy Reliable People Nigerian Data</h1>
+        <p class="sub">
+          Choose a state, enter how many data you want, and we’ll calculate the total instantly.
+          Then click the button to email your order.
+        </p>
+      </div>
+      <div class="mini" aria-label="Quick info">
+        <div class="pill">₦1,500 per data</div>
+        <div class="pill">All states included</div>
+        <div class="pill">Works on GitHub Pages</div>
+      </div>
+    </div>
+
+    <section class="grid">
+      <div class="card">
+        <div class="card-inner">
+          <h2>Order Details</h2>
+
+          <div class="row">
+            <div>
+              <label for="state">Choose State</label>
+              <select id="state" required>
+                <option value="" selected disabled>— Select a Nigerian State —</option>
+              </select>
+            </div>
+
+            <div class="split">
+              <div>
+                <label for="qty">Number of Data</label>
+                <input id="qty" type="number" min="1" step="1" placeholder="e.g., 3" inputmode="numeric" />
+              </div>
+
+              <div>
+                <label for="rate">Rate (₦)</label>
+                <input id="rate" type="text" value="1500" readonly />
+              </div>
+            </div>
+          </div>
+
+          <div class="note">
+            Tip: Your email app will open with the order details already filled in.
+            Just hit <b>Send</b>.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner summary">
+          <h2>Total</h2>
+
+          <div class="price-box">
+            <div class="price-line">
+              <p class="muted" style="margin:0">Amount to Pay</p>
+              <p class="muted" style="margin:0" id="calcLine">0 × 1500</p>
+            </div>
+            <p class="price" id="total">₦0</p>
+            <p class="hint" id="status">
+              Select a state and enter quantity to continue.
+            </p>
+          </div>
+
+          <button class="btn" id="emailBtn" disabled>
+            Email Order to Nigerian Real Data Guru
+          </button>
+
+          <p class="hint">
+            Email goes to: <b>nigerianrealdataguru@gmail.com</b>
+          </p>
+          <p class="hint warn" id="warn" style="display:none;margin-top:-2px"></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> • Nigerian Data Purchase • Built for GitHub Pages
+    </footer>
+  </main>
+
+  <script>
+    // --- Config ---
+    const PRICE_PER_DATA = 1500;
+    const EMAIL_TO = "nigerianrealdataguru@gmail.com";
+
+    const states = [
+      "Abia","Adamawa","Akwa Ibom","Anambra","Bauchi","Bayelsa","Benue","Borno",
+      "Cross River","Delta","Ebonyi","Edo","Ekiti","Enugu","Gombe","Imo","Jigawa",
+      "Kaduna","Kano","Katsina","Kebbi","Kogi","Kwara","Lagos","Nasarawa","Niger",
+      "Ogun","Ondo","Osun","Oyo","Plateau","Rivers","Sokoto","Taraba","Yobe","Zamfara",
+      "FCT (Abuja)"
+    ];
+
+    // --- Elements ---
+    const stateEl = document.getElementById("state");
+    const qtyEl = document.getElementById("qty");
+    const totalEl = document.getElementById("total");
+    const calcLineEl = document.getElementById("calcLine");
+    const statusEl = document.getElementById("status");
+    const btnEl = document.getElementById("emailBtn");
+    const warnEl = document.getElementById("warn");
+
+    // Populate states
+    for (const s of states) {
+      const opt = document.createElement("option");
+      opt.value = s;
+      opt.textContent = s;
+      stateEl.appendChild(opt);
+    }
+
+    // Helpers
+    const formatNaira = (n) => {
+      // Format like ₦4,500
+      try {
+        return "₦" + Number(n).toLocaleString("en-NG");
+      } catch {
+        return "₦" + n;
+      }
+    };
+
+    function getQty() {
+      const q = Number(qtyEl.value);
+      if (!Number.isFinite(q)) return 0;
+      return Math.max(0, Math.floor(q));
+    }
+
+    function compute() {
+      warnEl.style.display = "none";
+      warnEl.textContent = "";
+
+      const state = stateEl.value.trim();
+      const qty = getQty();
+      const total = qty * PRICE_PER_DATA;
+
+      calcLineEl.textContent = `${qty || 0} × ${PRICE_PER_DATA}`;
+      totalEl.textContent = formatNaira(total);
+
+      const ok = state && qty >= 1;
+      btnEl.disabled = !ok;
+
+      if (!state && qty < 1) {
+        statusEl.textContent = "Select a state and enter quantity to continue.";
+      } else if (!state) {
+        statusEl.textContent = "Select a state to continue.";
+      } else if (qty < 1) {
+        statusEl.textContent = "Enter a valid quantity (minimum 1).";
+      } else {
+        statusEl.textContent = "Ready! Click the button to email your order.";
+      }
+
+      return { state, qty, total };
+    }
+
+    function buildMailto({ state, qty, total }) {
+      const subject = `Nigerian Data Order - ${state}`;
+      const bodyLines = [
+        "Hello Nigerian Real Data Guru,",
+        "",
+        "I want to buy reliable Nigerian data with the details below:",
+        "",
+        `State: ${state}`,
+        `Quantity: ${qty}`,
+        `Rate: ₦${PRICE_PER_DATA} per data`,
+        `Total: ${formatNaira(total)}`,
+        "",
+        "Please confirm availability and payment instructions.",
+        "",
+        "Thank you."
+      ];
+
+      const params = new URLSearchParams({
+        subject,
+        body: bodyLines.join("\n")
+      });
+
+      return `mailto:${EMAIL_TO}?${params.toString()}`;
+    }
+
+    // Events
+    stateEl.addEventListener("change", compute);
+    qtyEl.addEventListener("input", compute);
+
+    btnEl.addEventListener("click", (e) => {
+      e.preventDefault();
+      const data = compute();
+
+      // Extra guard (in case)
+      if (!data.state || data.qty < 1) {
+        warnEl.textContent = "Please select a state and enter a valid quantity.";
+        warnEl.style.display = "block";
+        return;
+      }
+
+      window.location.href = buildMailto(data);
+    });
+
+    // Init
+    document.getElementById("year").textContent = new Date().getFullYear();
+    qtyEl.value = "";
+    document.getElementById("rate").value = PRICE_PER_DATA;
+    compute();
+  </script>
+</body>
+</html>
